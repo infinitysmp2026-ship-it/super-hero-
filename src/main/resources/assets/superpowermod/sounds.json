@@ -1,0 +1,56 @@
+{
+  "slam_launch": {
+    "subtitle": "subtitles.superpowermod.slam_launch",
+    "sounds": [
+      {
+        "name": "superpowermod:slam_launch",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "slam_dive": {
+    "subtitle": "subtitles.superpowermod.slam_dive",
+    "sounds": [
+      {
+        "name": "superpowermod:slam_dive",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "slam_impact": {
+    "subtitle": "subtitles.superpowermod.slam_impact",
+    "sounds": [
+      {
+        "name": "superpowermod:slam_impact",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "titan_grab": {
+    "subtitle": "subtitles.superpowermod.titan_grab",
+    "sounds": [
+      {
+        "name": "superpowermod:titan_grab",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "titan_throw": {
+    "subtitle": "subtitles.superpowermod.titan_throw",
+    "sounds": [
+      {
+        "name": "superpowermod:titan_throw",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "titan_land": {
+    "subtitle": "subtitles.superpowermod.titan_land",
+    "sounds": [
+      {
+        "name": "superpowermod:titan_land",
+        "attenuation_distance": 48
+      }
+    ]
+  }
+}

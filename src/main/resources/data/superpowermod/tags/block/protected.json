@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:doors",
+    "#minecraft:rails",
+    "#minecraft:anvil",
+    "minecraft:crafting_table",
+    "minecraft:lodestone",
+    "minecraft:respawn_anchor",
+    "minecraft:reinforced_deepslate"
+  ]
+}

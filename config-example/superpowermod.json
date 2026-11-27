@@ -1,0 +1,31 @@
+{
+  "skySlam": {
+    "cooldownSeconds": 8.0,
+    "jumpHeight": 22.0,
+    "diveSpeed": 2.4,
+    "aimRange": 40.0,
+    "shockwaveRadius": 9.0,
+    "knockbackStrength": 1.8,
+    "knockbackUpward": 0.9,
+    "shockwaveDamage": 0.0,
+    "breakBlocks": true,
+    "blockRadius": 4,
+    "blockDepth": 2,
+    "maxBlocks": 250,
+    "maxBlockHardness": 25.0,
+    "dropBrokenBlocks": false
+  },
+  "titanThrow": {
+    "cooldownSeconds": 10.0,
+    "grabRange": 4.5,
+    "holdTicks": 30,
+    "throwStrength": 2.8,
+    "throwUpward": 0.9,
+    "landingDamage": 0.0
+  },
+  "protection": {
+    "protectBlockEntities": true,
+    "protectedBlocks": [],
+    "protectNeighbours": true
+  }
+}

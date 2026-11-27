@@ -1,0 +1,46 @@
+plugins {
+	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	mavenCentral()
+	// Player Animation Library
+	maven {
+		name = 'RedlanceMinecraft'
+		url = 'https://repo.redlance.org/public'
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings loom.officialMojangMappings()
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	modImplementation "com.zigythebird.playeranim:PlayerAnimationLibFabric:${project.pal_version}"
+}
+
+processResources {
+	def modVersion = project.version
+	inputs.property 'version', modVersion
+
+	filesMatching('fabric.mod.json') {
+		expand 'version': modVersion
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	options.release = 21
+	options.encoding = 'UTF-8'
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}

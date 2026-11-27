@@ -1,0 +1,21 @@
+{
+  "key.category.superpowermod.abilities": "Superpowers",
+  "key.superpowermod.sky_slam": "Sky Slam",
+  "key.superpowermod.titan_throw": "Titan Throw",
+
+  "ability.superpowermod.sky_slam": "Sky Slam",
+  "ability.superpowermod.titan_throw": "Titan Throw",
+
+  "message.superpowermod.cooldown": "%1$s ready in %2$ss",
+  "message.superpowermod.busy": "You cannot use an ability right now",
+  "message.superpowermod.no_target": "No player in grabbing range",
+  "message.superpowermod.target_busy": "That player cannot be grabbed right now",
+  "message.superpowermod.not_here": "Sky Slam needs open ground, not water or lava",
+
+  "subtitles.superpowermod.slam_launch": "Hero launches",
+  "subtitles.superpowermod.slam_dive": "Hero dives",
+  "subtitles.superpowermod.slam_impact": "Ground smashes",
+  "subtitles.superpowermod.titan_grab": "Titan grabs",
+  "subtitles.superpowermod.titan_throw": "Titan throws",
+  "subtitles.superpowermod.titan_land": "Body crashes down"
+}

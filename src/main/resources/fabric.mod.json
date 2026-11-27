@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "superpowermod",
+  "version": "${version}",
+  "name": "Superpower Mod",
+  "description": "Two cinematic superpowers: Sky Slam and Titan Throw.",
+  "authors": ["SuperpowerMod"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/superpowermod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.superpowermod.SuperpowerMod"],
+    "client": ["com.superpowermod.client.SuperpowerModClient"]
+  },
+  "mixins": [
+    {
+      "config": "superpowermod.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "player_animation_library": ">=1.1.5"
+  },
+  "recommends": {
+    "bendable_cuboids": "*"
+  }
+}
